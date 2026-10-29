@@ -1,9 +1,27 @@
-target/*
+# Build output
 target/
-.vscode/*
-.vscode/
+target/
 
-**/*~undo-tree~*
-
-.env
+# IDE
 .idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+.apt_generated/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+!.env.example
+
+# Maven wrapper exceptions
+!.mvn/wrapper/maven-wrapper.jar
